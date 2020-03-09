@@ -23,7 +23,7 @@ function greet(timeS) {
 }
 
 function displayMessage(string) {
-  document.getElementById("greeting").textContent = string;
+  document.getElementById("greeting").innerText = string;
 }
 
 
